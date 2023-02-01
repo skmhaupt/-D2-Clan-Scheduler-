@@ -19,6 +19,7 @@ obj/
 
 #  Directorys
 images/
+node_modules/
 
 #  specific files
 *.ico
