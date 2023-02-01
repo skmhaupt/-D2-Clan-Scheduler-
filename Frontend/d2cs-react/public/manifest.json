@@ -1,0 +1,25 @@
+{
+  "short_name": "D2CS",
+  "name": "Destiny 2 Clan Scheduler",
+  "icons": [
+    {
+      "src": "D2CS_2.0.ico",
+      "sizes": "37x40",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "D2CS_2.0.ico",
+      "type": "image/x-icon",
+      "sizes": "37x40"
+    },
+    {
+      "src": "D2CS_2.0.ico",
+      "type": "image/x-icon",
+      "sizes": "37x40"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
