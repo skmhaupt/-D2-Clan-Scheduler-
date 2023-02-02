@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\D2CS_API.Model\D2CS_API.Model.csproj" />
+    <ProjectReference Include="..\D2CS_DB.Model\D2CS_DB.Model.csproj" />
   </ItemGroup>
 
 </Project>
