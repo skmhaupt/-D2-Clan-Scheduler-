@@ -17,6 +17,9 @@ obj/
 # production
 /build
 
+#  Hidden directorys
+.vs/
+
 #  Directorys
 images/
 node_modules/
