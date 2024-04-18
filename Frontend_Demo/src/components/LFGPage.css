@@ -1,0 +1,78 @@
+.lfgPageContainer {
+    position: relative;
+    background-color: rgb(0, 51, 99);
+    width: 350px;
+    min-width: 350px;
+    opacity: 0.7;
+    padding: 5% 4%;
+}
+
+.lfgPageContainer>h2 {
+    opacity: 1.0;
+    margin-bottom: 2%;
+}
+
+.lfgPageContainer>i {
+    position: absolute;
+    top: 10%;
+    right: 12%;
+    cursor: pointer;
+}
+
+.editContainer {
+    padding: 3%;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    height: 0px;
+    opacity: 0;
+}
+
+.editContainer.active{
+    position: absolute;
+    top: 5%;
+    background-color: #242424;
+    z-index: 1;
+    transition: all 0.5s ease;
+    width: 240px;
+    height: 200px;
+    opacity: 1.0;
+}
+
+.editContainer>form>label>h4, 
+.editContainer>form>label>input {
+    margin-bottom: 5px
+}
+
+.editContainer>Button,
+.editContainer>form>div>Button {
+    padding: 2px 10px;
+}
+
+.editContainer>Button {
+    position: absolute;
+    right: 26px;
+    bottom: 28px;
+}
+
+.playersContainer {
+    border: solid 2px;
+    width: 100%;
+}
+
+.playerContainer {
+    font-size: 20px;
+    margin: 2% 3%;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+Button {
+    margin-top: 5%;
+    
+}
