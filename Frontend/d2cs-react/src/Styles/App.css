@@ -161,32 +161,20 @@ html {
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
-    /* max-height: fit-content; */
+    min-width: 300px;
 }
-
-/* .pageContainer>.popup>.popup-icon {
-    display: block;
-    margin-left: 85%;
-    margin-top: 4%;
-    margin-bottom: 2%;
-    cursor: pointer;
-} */
 
 .popup>form {
     display: flex;
     flex-direction: column;
 }
 
-/* .popup>form>label {
-    margin-left: 4%;
-} */
+.popup>form>div>label {
+    font-size: 20px;
+}
 
-.popup>form>input {
-    margin: 10px 5px 25px 20px;
-    /* margin-top: 10px;
-    margin-right: 5px;
-    margin-bottom: 5%;
-    margin-left: 4%; */
+.popup>form>div>input {
+    margin: 10px 5px 20px 20px;
     height: 30px;
     width: max-content;
 }
@@ -204,8 +192,6 @@ html {
     top: 70%;
     left: 55%;
 }
-
-
 
 .CancleNewFierteamButton:hover {
     background: red;
@@ -236,13 +222,6 @@ html {
         transform: translate(-50%, -50%);
     }
 
-    .popup>form>input {
-        /* margin-left: 4%;
-        margin-top: 2%;
-        margin-bottom: 3%; */
-        height: 30px;
-        width: max-content;
-    }
 
     .destinationsContainer>.popup>form>div>Button,
     .crucibleContainer>.popup>form>div>Button {

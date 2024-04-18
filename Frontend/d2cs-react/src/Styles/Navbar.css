@@ -20,15 +20,15 @@
 
 .navbar-logo {
     color: #fff;
-    justify-self: start;
-    margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
-    display: flex;
-    align-items: center;
+    width: min-content;
 }
 
+.short-text {
+    display: none;
+}
 
 
 .nav-menu {
@@ -38,8 +38,7 @@
     list-style: none;
     text-align: center;
     width: 60vw;
-    justify-content: flex-start;
-    margin-right: 2rem;
+    justify-content: center;
 }
 
 .nav-item {
@@ -130,6 +129,14 @@
         top: 0;
         left: 0;
         transform: translate(25%, 50%);
+    }
+
+    .short-text {
+        display: inline-block;
+    }
+
+    .full-text {
+        display: none;
     }
 
     .menu-icon {

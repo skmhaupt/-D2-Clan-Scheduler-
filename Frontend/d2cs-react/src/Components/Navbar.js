@@ -14,7 +14,7 @@ function Navbar() {
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
-    if (User.name === []) {
+    if (User.name == []) {
         logintext = 'Log In';
 
     } else {
@@ -40,8 +40,11 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                        D2 SCHEDULER
+                    <Link to="/" className="navbar-logo full-text" onClick={closeMobileMenu}>
+                        D2 CLAN SCHEDULER
+                    </Link>
+                    <Link to="/" className="navbar-logo short-text" onClick={closeMobileMenu}>
+                        D2CS
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
