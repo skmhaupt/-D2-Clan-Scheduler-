@@ -17,13 +17,16 @@ obj/
 # production
 /build
 
+#  Hidden directorys
+.vs/
+
 #  Directorys
 images/
 node_modules/
 
 #  specific files
 *.ico
-
+*.csproj.user
 
 # misc
 .DS_Store
