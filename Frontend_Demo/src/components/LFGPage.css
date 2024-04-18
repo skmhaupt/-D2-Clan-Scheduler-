@@ -1,10 +1,9 @@
 .lfgPageContainer {
     position: relative;
     background-color: rgb(0, 51, 99);
-    width: 350px;
     min-width: 350px;
     opacity: 0.7;
-    padding: 5% 4%;
+    padding: 35px;
 }
 
 .lfgPageContainer>h2 {
@@ -29,7 +28,7 @@
     opacity: 0;
 }
 
-.editContainer.active{
+.editContainer.active {
     position: absolute;
     top: 5%;
     background-color: #242424;
@@ -40,7 +39,7 @@
     opacity: 1.0;
 }
 
-.editContainer>form>label>h4, 
+.editContainer>form>label>h4,
 .editContainer>form>label>input {
     margin-bottom: 5px
 }
@@ -50,10 +49,30 @@
     padding: 2px 10px;
 }
 
+.editContainer>form>div>Button {
+    position: absolute;
+    top: 10px;
+    cursor: default;
+}
+
+.editContainer.active>form>div>Button {
+    position: inherit;
+    top: auto;
+    cursor: pointer;
+}
+
 .editContainer>Button {
     position: absolute;
     right: 26px;
+    bottom: 90%;
+    cursor: default;
+}
+
+.editContainer.active>Button {
+    position: absolute;
+    right: 26px;
     bottom: 28px;
+    cursor: pointer;
 }
 
 .playersContainer {
@@ -66,7 +85,7 @@
     margin: 2% 3%;
 }
 
-.buttonContainer{
+.buttonContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,5 +93,5 @@
 
 Button {
     margin-top: 5%;
-    
+
 }
